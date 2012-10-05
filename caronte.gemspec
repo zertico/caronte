@@ -14,4 +14,7 @@ Gem::Specification.new do |gem|
   gem.name          = "caronte"
   gem.require_paths = ["lib"]
   gem.version       = Caronte::VERSION
+
+  gem.add_development_dependency "rspec"
+  gem.add_runtime_dependency "activerecord"
 end
