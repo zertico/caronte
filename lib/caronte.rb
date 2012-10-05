@@ -1,5 +1,7 @@
 require "caronte/version"
 
 module Caronte
-  # Your code goes here...
+  autoload :AccessGrant, 'caronte/access_grant'
+  autoload :AccessToken, 'caronte/access_token'
+  autoload :Application, 'caronte/application'
 end
