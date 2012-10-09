@@ -4,8 +4,8 @@ require File.expand_path('../lib/caronte/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Paulo Henrique Lopes Ribeiro", "Gustavo de Oliveira Villalta"]
   gem.email         = ["plribeiro3000@gmail.com", "gvillalta99@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{OAuth2 Provider}
+  gem.summary       = %q{OAuth2 Provider}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
@@ -16,5 +16,6 @@ Gem::Specification.new do |gem|
   gem.version       = Caronte::VERSION
 
   gem.add_development_dependency "rspec"
+  gem.add_development_dependency "shoulda-matchers"
   gem.add_runtime_dependency "activerecord"
 end
