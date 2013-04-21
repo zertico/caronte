@@ -1,6 +1,8 @@
 # Caronte
 
-TODO: Write a gem description
+[![Gem Version](https://badge.fury.io/rb/caronte.png)](http://badge.fury.io/rb/cnab) [![Build Status](https://travis-ci.org/zertico/caronte.png)](https://travis-ci.org/zertico/caronte) [![Dependency Status](https://gemnasium.com/zertico/caronte.png)](https://gemnasium.com/zertico/caronte) [![Coverage Status](https://coveralls.io/repos/zertico/caronte/badge.png?branch=master)](https://coveralls.io/r/zertico/caronte) [![Code Climate](https://codeclimate.com/github/zertico/caronte.png)](https://codeclimate.com/github/zertico/caronte)
+
+OAuth2 logic to easy integrate any web framework
 
 ## Installation
 
@@ -18,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+There is a gem to mantain an oauth2 service but it relies on rails. This one has the purpose to not rely on any web framework.
 
 ## Mantainers
   [@plribeiro3000](https://github.com/plribeiro3000)
